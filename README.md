@@ -46,7 +46,7 @@ The timer values represent clock counts, not seconds. Actual timing depends on t
 
 
 
-- traffic light fsm code.txt — Verilog testbench and Verilog FSM design.
+- traffic_light_fsm_code.txt — Verilog testbench and Verilog FSM design.
 - `waveform.png` — Simulation waveform screenshot.
 
 
@@ -72,7 +72,7 @@ Make sure both the design and testbench files are available in the same director
 **1. Compile the design and testbench**
 
 ```bash
-iverilog -g2012 -o traffic_sim traffic_light_fsm.v traffic_light_fsm_tb.v
+iverilog -g2012 -o traffic_light_fsm_code.v traffic_light_fsm_code_tb.v
 ```
 
 **2. Run the simulation**
